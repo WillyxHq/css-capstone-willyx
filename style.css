@@ -1,0 +1,930 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #F5FCF4;
+}
+p, b{
+  font-family: Raleway;
+  color: #3B413A;
+  font-size: 18px;
+  font-weight: 500;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Poppins;
+  color: #3B413A;
+  font-size: 35px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+nav{
+    /* border: 1px solid black; */
+    align-items: center;
+    height: 10%;
+    margin-top: 20px;
+    margin-bottom: 150px;
+  }
+  ul{
+    /* border: 1px solid black; */
+    margin-left: auto;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+    font-size: 17px;
+    font-family: poppins;
+    color: #266459;
+  }
+  button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+   font-family: poppins;
+    background-color: #26643B;
+    color: #E8E8E3;
+  }
+  ul a{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  button a{
+    color: #D6E5D8;
+  }
+  .hambuger{
+    display: none;
+  }
+  #small_device{
+    display: none;
+  }
+  #close{
+    width: 50px;
+  }
+.container{
+  /* border: 1px solid black; */
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Hero_section{
+    /* border: 1px solid black; */
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.hero_image{
+    /* border: 1px solid red; */
+    height: fit-content;
+}
+.hero_content img{
+    width: 100%
+}
+.hero_image h1{
+    font-weight: 600;
+}
+.mobile_h1{
+    display: none;
+}
+.hero_image p{
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.button{
+    border: 1px solid transparent;
+    align-items: center;
+    gap: 20px;
+}
+.button h2{
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #26643B;
+    font-weight: 600;
+}
+button{
+    padding: 10px 20px;
+}
+.mobile_p{
+    display: none;
+}
+@media(max-width:348px){ 
+  .desk_top_p{
+    display: none;
+  }  
+  .mobile_p{
+    display: block;
+    /* border: 1px solid red; */
+  }
+  .button{
+    justify-content: center;
+    gap: 5px;
+  }
+ .button h2{
+    padding-top: 0px;
+ }
+ }
+ .another{
+    margin-top: 200px;
+ }
+ .Our_Specials{
+    /* border: 1px solid black; */
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    gap: 33px;
+    margin-top: 100px;
+ }
+  .Fries_Bowl{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 28%;
+    height: fit-content;
+   
+    
+ }
+ .Fries_Bowl_images{
+    /* border: 1px solid black; */
+    width: 100%;
+    border-radius: 10px;
+    flex-direction: column;
+     position: relative;
+     top: 80px;
+    z-index: 2;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .Fries_Bowl_images img{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+ }
+ .Fries_Bowl_content{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding-bottom: 20px;
+    height: fit-content;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #D6E5D8;
+ }
+.Fries_Bowl_content h1{
+    font-size: 25px;
+    padding-top: 100px;
+}
+.Fries_Bowl_content h2{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #26643B;
+}
+.Fries_Bowl_content p{
+    font-size: 16px;
+    line-height: 23px;
+   
+}
+.content{
+   /* border: 1px solid black; */
+   width: 35%;
+   align-items: start;
+ }
+ .content h1{
+    font-weight: 400;
+    padding-bottom: 20px;
+ }
+ .content p{
+    /* border: 1px solid black; */
+    padding-bottom: 20px;
+    font-weight: 400;
+ }
+ .Top_Dishes_content h1{
+    font-size: 20px;
+ }
+ .Top_Dishes_content h2{
+    font-size: 20px;
+ }
+ .Demo_dish{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    height: fit-content;
+    margin-top: 150px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #D6E5D8;
+    position: relative;
+ }
+ .Top{
+    font-size: 25px;
+    padding-bottom: 20px;
+ }
+ .Top_Dishes_img{
+    border: 1px solid red;
+    max-width: 100%;
+    height: auto;
+ }
+ .Demo_items{
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 350px;
+ }
+ .Demo_items img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+ }
+ .Demo_item{
+    /* border: 1px solid black; */
+    width: fit-content;
+    height: 300px;
+    flex-direction: column;
+ }
+ .per{
+    font-size: 25px;
+    font-weight: 800;
+    color: #26643B;
+ }
+ .Demo_item h1{
+   padding-top: 0px;
+   line-height: 35px;
+ }
+ #Discount{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ }
+ .h2{
+    padding-top: 10px;
+    color: #3B413A;
+    font-size: 25px;
+    font-weight: 800;
+ }
+ .Pesto{
+    font-size: 25px;
+    font-weight: 800;
+    color: #26643B;
+ }
+ .Demo_item img{
+    width: 8rem;
+    height: 1.2rem;
+ }
+ .bnt{
+    /* border: 1px solid black; */
+    width: fit-content;
+    margin-top: 20px;
+ }
+ @media(max-width:1000px){
+    .tablet{
+        display: none;
+    }
+    .Demo_items{
+        width: 28%;
+    }
+    .Demo_item{
+        width: 40%;
+    }
+  }
+  .Video_section{
+    /* border: 1px solid black; */
+    height: fit-content;
+    margin-top: 150px;
+    justify-content: space-between;
+  }
+  .Video{
+    /* border: 1px solid black; */
+    width: 64.5%;
+    height: fit-content;
+    position: relative;
+    display: inline-block;
+  }
+  .Video_img{
+    width: 100%;  
+}
+  .playIcon{
+    position: absolute; 
+    top: 43%;
+    left: 43%;
+    z-index: 1;
+}
+  .video_image{
+    /* border: 1px solid black; */
+    width: 33.5%;
+    height: fit-content;
+  }
+  .video_image img{
+    width: 100%;
+  }
+  .Book_For_Events{
+    /* border: 1px solid black; */
+    height: fit-content;
+    margin-top: 100px;
+    gap: 10%;
+  }
+  .Book_Events{
+    /* border:  1px solid black; */
+    width: 45%;
+    height: fit-content;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .Corporate_Events{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    background-color: #D6E5D8;
+    justify-content: space-between; 
+    padding-top: 20px;   
+    padding-bottom: 20px;
+  }
+  .Corporate_Events_images{
+    /* border: 1px solid black; */
+    align-items: center;
+    padding-left: 10px;
+    width: 40%;
+  }
+  .Corporate_Events img{
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  .Corporate_Events_text{
+    /* border: 1px solid black; */
+    width: 55%;
+    padding-right: 10px;
+  }
+  .Corporate_Events_text h1{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .Corporate_Events_text p{
+    font-size: 16px;
+  }
+  .two h1{
+    font-weight: 500;
+    padding-top: 0;
+  }
+  .two p{
+    padding-top: 0;
+  }
+  .Why_Choose_Our_Food{
+    /* border: 1px solid black; */
+    height: fit-content;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+    align-items: center;
+}.Our_Food{
+    /* border: 1px solid black; */
+    width: 55%;
+    margin-bottom: 50px;
+ 
+}
+.Why_Choose_Our_Food p{
+    font-weight: 400;
+}
+.box{
+    width: 40%;
+    justify-content: space-between;
+}
+.Our_Food h1{
+    padding-bottom: 20px;
+}
+.Our_Food_box{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 48%;
+    height: 180px;
+    margin-top: 15px;
+    background-color: #D6E5D8;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Our_Food_box h3{
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center;
+}
+.What_Our_Customers_Say{
+    /* border: 1px solid black; */
+    height: fit-content;
+    margin: 0 auto;
+}
+.hh{
+    width: 100%;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding-bottom: 20px;
+}
+.What_Our_Customers_content{
+    /* border: 1px solid black; */
+    height: fit-content;
+    width: 100%;
+    justify-content: space-between;
+}
+.testimonial{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 49%;
+    height:fit-content;
+    margin-bottom: 20px;
+    background-color: #D6E5D8;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.testimonial_image{
+    width:30%;
+    height: fit-content;
+    /* border: 1px solid black; */
+}
+.testimonial_image img{
+    border-radius: 10px;
+    width: 100%;
+    /* max-width: 100%; */
+    height: 200px;
+}
+.testimonial_text{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 100%;
+}.testimonial_text h5{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.testimonial_text p{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.Join_Newsletter{
+   border-radius: 10px;
+   background-color: #A2DE96;
+   height: fit-content;
+   margin-top: 100px;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.Join_Newsletter_text{
+    padding-left: 20px;
+}
+.Join_Newsletter_form{
+    /* border: 1px solid black; */
+}
+.Join_Newsletter_form input{
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 70%;
+    border-radius: 5px;
+    /* border: none; */
+    background-color:white;
+    outline: none;
+    padding: 0 10px;
+    font-family: Raleway;
+    color: #D2D2D1;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.footer_container{
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.Follow_us{
+    /* border: 1px solid red; */
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.Follow_us img{
+    width: 50%;
+    padding-bottom: 20px;
+}
+.Follow_us h5 {
+    font-weight: 500;
+    font-size: 22px;
+}
+.Follow_us p{
+    line-height: 25px;
+}
+.svg{
+    gap: 10px;
+}
+.footer_svg{
+    border: 1px solid #B2E0A9;
+    border-radius: 6px;
+    background-color: #E8E8E8;
+    padding: 6px;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.Links{
+    /* border: 1px solid red; */
+    height: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.Links b{
+    font-size: 18px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: #3B413A;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: raleway;
+    margin-top: 5px;
+}
+.copy_right{
+    background-color: #F5FCF4;
+    height: 100px;
+    padding-top: 20px;
+}
+
+
+
+  /* Desktop Devices Large, Xlarge, XXLarge */
+/* Large */
+@media(min-width:992px){
+    .col-lg-1{
+        width: 8.33%;
+   }
+   .col-lg-2{
+    width: 16.66%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-7{
+        width: 58.33%;
+    }
+    .col-lg-8{
+        width: 66.66%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-10{
+        width: 83.33%;
+    }
+    .col-lg-11{
+        width: 91.66%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+}
+/* Tablet Devices - Small and Medium */
+/* Medium Devices */
+@media(min-width:768px) and (max-width:991px){
+    .Our_Specials{
+        justify-content: center;
+    }
+    .Fries_Bowl{
+        width: 45%;
+    }
+    .content{
+        justify-content: center;
+    }
+    .Book_For_Events{
+        gap: 2%;
+        margin-top: 50px;
+    }
+    .Book_Events{
+        /* border: 1px solid black; */
+        width: 48%;
+    }
+    .col-md-1{
+        width: 8.33%;
+   }
+   .col-md-2{
+    width: 16.66%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-5{
+        width: 41.66%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: 58.33%;
+    }
+    .col-md-8{
+        width: 66.66%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-10{
+        width: 83.33%;
+    }
+    .col-md-11{
+        width: 91.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}
+/* Small Devices */
+@media(max-width:767px){
+    h1, h2, h3, h4, h5, h6{
+        font-size: 20px;
+    }
+    p, b {
+        font-size: 14px;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .ul{
+        display: none;
+    }
+    .hambuger{
+        display: block;
+    }
+    #small_device{
+        display: block;
+    }
+    .desk_top_h1{
+    display: none;
+    }
+    .mobile_h1{
+    display: block;
+    }
+    .Hero_section{
+        justify-content: center;
+    }
+    .hero_image{
+        order: 2;
+        justify-content: center;
+        text-align: center;
+    }
+    .hero_content img{
+        width: 100%;
+        text-align: center;
+    }
+    button{
+        font-size: 15px;
+    }
+    .button h2{
+        font-size: 15px;
+    }
+    .another{
+        margin-top: 100px;
+    }
+    .Fries_Bowl{
+        width: 46%;
+    }
+    .Our_Specials{
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .content{
+        justify-content: center;
+    }
+    .first{
+        width: 40%;
+        height: 100%;
+    }
+    .first img{
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .second{
+        width: 58%;
+        height: 50%;
+    }
+    .second img{
+        width: 100%;
+        height: 250px;
+    }
+    .Demo_dish{
+        /* border: 1px solid red; */
+        height: fit-content;
+        padding: 20px 10px;
+        margin-top: 100px;
+    }
+    .Demo_item h2{
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    .Demo_item h1{
+        font-size: 18px;
+    }
+    .Pesto{
+        font-size: 15px;
+    }
+    .Demo_item img{
+        width: 6rem;
+        height: 1rem;
+        margin-top: 10px;
+    }
+    .Video_section{
+        margin-top: 100px;
+    }
+    .playIcon{
+        width: 50px;
+    }
+    .Book_For_Events{
+        margin-top: 50px;
+    }
+    .text{
+        /* border: 1px solid red; */
+        width: 100%;
+        text-align: center;
+    }
+    .Why_Choose_Our_Food{
+        margin-top: 10px;
+    }
+    
+    .box{
+        margin: 0 auto;
+        justify-content: unset;
+        gap: 10px;
+        justify-content: center;
+       
+    }
+    .Our_Food_box{
+        width: 37%;
+        height: 120px;
+        margin-top: 5px;
+    }
+    .Our_Food_box h3{
+        font-size: 16px;
+    }
+    .testimonial{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .Join_Newsletter_form{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .col-sm-1{
+        width: 8.33%;
+   }
+   .col-sm-2{
+    width: 16.66%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-4{
+        width: 33.33%;
+    }
+    .col-sm-5{
+        width: 41.66%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-7{
+        width: 58.33%;
+    }
+    .col-sm-8{
+        width: 66.66%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-10{
+        width: 83.33%;
+    }
+    .col-sm-11{
+        width: 91.66%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+}
+/* Mobile Devices - Extra Small */
+/* Extra Small Devices */
+@media(max-width:575px){
+    .Fries_Bowl{
+        width: 80%;
+    }
+    .Our_Specials{
+        justify-content: center;
+    }
+    .content{
+        border: 1px solid black;
+        justify-content: center;
+    }
+    .playIcon{
+        width: 30px;
+    }
+    .Our_Food_box{
+        /* border: 1px solid red; */
+        width: 48%;
+        height: 120px;
+        margin-top: 5px;
+    }
+    .Our_Food_box h3{
+        font-size: 12px;
+    }
+    .testimonial{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+   .col-1{
+        width: 8.33%;
+   }
+   .col-2{
+    width: 16.66%;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-5{
+        width: 41.66%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: 58.33%;
+    }
+    .col-8{
+        width: 66.66%;
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: 83.33%;
+    }
+    .col-11{
+        width: 91.66%;
+    }
+    .col-12{
+        width: 100%;
+    }
+}
+
+
+@media(max-width:425px){ 
+    .box{
+        margin: 0 auto;
+        justify-content: unset;
+        gap: 10px;
+        justify-content: center;
+       
+    }
+    .Our_Food_box{
+        width: 45%;
+        height: 120px;
+        margin-top: 5px;
+    }
+    .Our_Food_box h3{
+        font-size: 12px;
+    }
+    .Our_Food_box img{
+        width: 30%;
+    }
+ }
+
+ @media(max-width:415px){ 
+    .box{
+        width: 80%;
+    }
+  }
+
+
+ 
